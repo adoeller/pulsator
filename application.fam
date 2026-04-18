@@ -1,0 +1,12 @@
+App(
+    appid="pulsator",
+    name="Power Interrupt Tester",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="pulsator_app",
+    stack_size=2 * 1024,
+    fap_category="GPIO",
+    fap_icon="pulsator.png",
+    fap_author="you",
+    fap_version="1.1",
+    fap_description="5V/3.3V GPIO + LED Interrupt-Tester with configurable pulse.",
+)
